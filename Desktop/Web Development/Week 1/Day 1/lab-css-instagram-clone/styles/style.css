@@ -1,0 +1,76 @@
+/*
+Colors to use:
+dark blue: #06365f DONE
+light blue: #1c5380 DONE
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+/* .color-block {
+  background: linear-gradient(to bottom, #1c5380, #06365f);
+  height: 25vh;
+} [ADJUST] */
+
+/* set the heigh to 20% of viewport */
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 350px;
+  padding-right: 350px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.column-right {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.login-button {
+  display: flex;
+  direction: row;
+}
+
+.column-right-top {
+  display: flex;
+  direction: row;
+}
+
+header {
+  color: #06365f;
+}
+
+p {
+  font-weight: bolder;
+}
+
+.column-right-bottom {
+  background-image: url("/lab-css-instagram-clone/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+footer {
+  color: #1c5380;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  word-spacing: 5px;
+}
+
+/* footer class 
+.highlighted {
+  color: gray;
+} [ADJUST] */
